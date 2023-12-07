@@ -25,7 +25,7 @@
 #spinner {
     opacity: 0;
     visibility: hidden;
-    transition: opacity .5s ease-out, visibility 0s linear .10s;
+    transition: opacity 1s ease-out, visibility 0s linear 1s;
     z-index: 99999;
 }
 
@@ -128,7 +128,7 @@
 }
 
 .dropdown-menu :hover {
-    background-color: #06a6d6;
+    background-color:  #06BBCC;
     color: #FFFFFF;
 }
 
@@ -139,6 +139,8 @@
         opacity: 0;
         visibility: hidden;
         transition: .5s;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     .navbar .dropdown-menu.fade-down {
@@ -487,6 +489,13 @@
     display: inline-block;
 }
 
+h2{
+    color: #ffffff; 
+    text-align: center; 
+    padding-top: 20px; 
+    padding-bottom: 20px;
+}
+
 .ppoo {
     height: auto;
     width: 100%;
@@ -495,16 +504,50 @@
     margin-bottom: 60px;
 }
 
+.pxm{
+    width: 200px;
+    height: 50px; 
+    font-size: 25px; 
+    text-align: center; 
+    border-radius: 10px; 
+    position: relative; 
+    top: 50px; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
 .pxm :hover {
     font-size: 27px;
     transition: 0.5s;
-    color: #a7a1a1;
+    color: #000000;
 }
+
+.ss-aa{
+    color: #ffffff; 
+    position: relative; 
+    bottom: 338%;
+}
+
+.sh{
+    width: 90%; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
 
 tr :hover{
     background-color: #06a6d6;
     color: #FFFFFF;
     text-decoration: underline;
     text-align: center;
+    transition: 1s;
+}
+
+.csx {
+    color: #ffffff;
+}
+
+.csx :hover {
+    font-size: 40px;
     transition: 0.5s;
 }
